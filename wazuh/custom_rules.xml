@@ -1,0 +1,7 @@
+<group name="malware,eicar">
+  <rule id="100500" level="12">
+    <if_sid>syscheck</if_sid>
+    <match>EICAR</match>
+    <description>EICAR Test Malware Detected</description>
+  </rule>
+</group>
